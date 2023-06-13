@@ -148,7 +148,7 @@ def get_director_endpoint(nombre_director: str):
 
 
 
-#modelo ml
+# MODELO ML
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -180,10 +180,10 @@ def recomendacion(titulo:str):
     indice = np.where(df['title'] == titulo)[0][0]
     #Vemos los indices de aquellas puntuaciones y caracteristicas similares hacia el titulo 
     puntuaciones_similitud = reduced_similarity_matrix[indice,:]
-    # Se ordena los indicies de menor a mayor
+    # Se ordena los indicies de mayor a menor
     puntuacion_ordenada = np.argsort(puntuaciones_similitud)[::-1]
-    # Que solo 7 nos indique 
-    top_indices = puntuacion_ordenada[:7]
+    # Que solo 5 nos indique 
+    top_indices = puntuacion_ordenada[:5]
     
     return df.loc[top_indices, 'title'].tolist()
 
