@@ -1,13 +1,12 @@
-PROYECTO INDIVIDUAL Nº1
 Machine Learning Operations (MLOps)
 
 Proyecto MLOps: Sistema de Recomendación de Películas
-En este proyecto el objetivo consiste en implementar un sistema de recomendación de películas utilizando técnicas de Machine Learning, para llevar el modelo al mundo real. Trabajaremos en el contexto de una start-up que provee servicios de agregación de plataformas de streaming.
+En este proyecto el objetivo consiste en implementar un sistema de recomendación de películas utilizando técnicas de Machine Learning, para llevar el modelo al mundo real. Trabajé en el contexto de una start-up que provee servicios de agregación de plataformas de streaming.
 
 Descripción del Problema:
 En el rol de un MLOps Engineer, nos encontramos con un modelo de recomendación de películas que ha demostrado buenas métricas en el entorno de desarrollo. Sin embargo, necesitamos llevar este modelo al mundo real y enfrentamos desafíos en la etapa de ingeniería de datos y despliegue de la API.
 
-El conjunto de datos con el que trabajamos tiene poca madurez, con datos anidados, falta de transformaciones y procesos automatizados para la actualización de nuevas películas o series. Nuestro objetivo es realizar las transformaciones necesarias en los datos, desarrollar una API con el framework FastAPI y desplegarla para que pueda ser consumida desde la web. Además, implementaremos un sistema de recomendación basado en la similitud entre películas.
+El conjunto de datos con el que trabajé tiene poca madurez, con datos anidados, falta de transformaciones y procesos automatizados para la actualización de nuevas películas o series. mi objetivo es realizar las transformaciones necesarias en los datos, desarrollar una API con el framework FastAPI y desplegarla para que pueda ser consumida desde la web. Además, implementaremos un sistema de recomendación basado en la similitud entre películas.
 
 Requerimientos:
 Python: 3
@@ -35,4 +34,4 @@ Para desarrollar la API, hemos utilizado el framework FastAPI. Este framework no
 Para desplegar la API, hemos utilizado el servicio Render.
 
 Uso de la API:
-La API está disponible para realizar consultas! Puedes acceder a ella a través de este enlace: "Link de la API". Utiliza los diferentes endpoints para obtener información sobre películas, actores, directores y más.
+La API está disponible para realizar consultas! Puedes acceder a ella a través de este enlace: " ". Utiliza los diferentes endpoints para obtener información sobre películas, actores, directores y más.
